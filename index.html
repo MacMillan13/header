@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{margin-left: 0;margin-right:0;margin-top:50px;padding: 0;height: 2500px;height: -moz-(2500px);}
+header{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  line-height: 108px;
+  height: 108px;
+  background: #1E90FF;
+  color: #87CEFA;
+  font-family: 'PT Sans', sans-serif;
+  transition: all 1s ease;
+  text-shadow: 2px 2px 3px #777;
+  border:1px solid #ebebee;
+  border-bottom:3px solid #ddd;
+}
+header.sticky {
+  font-size: 46px;
+  line-height: 48px;
+  height: 48px;
+  background: #228B22;
+  text-align: left;
+  padding-left: 20px;
+  color: #98FB98;
+}
+.nos{
+	padding-top:400px;
+	text-align: center;
+	text-shadow: 2px 2px 3px #777;
+}
+</style>
+	<link rel="shortcut icon" type="image/x-icon" href="images.11/logojs1.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('header').addClass("sticky");
+  }
+  else{
+    $('header').removeClass("sticky");
+  }
+});
+</script>
+<script type="text/javascript">
+	(function(){
+		var interval = 2000;
+		var colors = ['red', 'green', 'blue', 'orange', 'yellow']
+		function changeColor(){
+			var currentColor = colors.shift();
+			$('h1.nos').get(0).style.color = currentColor;
+			colors.push(currentColor);
+		}
+		setInterval(changeColor, interval);
+	})();
+	
+	if(color= 'yellow') {
+		$(".style.color= 'green'").show();
+	}
+</script>
+</head>
+<header>Vlad Moiseev product!</header>
+<body>
+<h1 class="nos">Want to find a job...</h1>
+</body>
+</html>
