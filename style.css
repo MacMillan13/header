@@ -162,3 +162,27 @@ header.sticky {
        }
       }
       
+            @media screen and (min-width:100px) and (max-width:768px){
+       .anons header header.sticky .rezume .topmenu {
+        width: 30%;
+       }
+       #me{
+      width: 50%;
+      margin-top: 20px;
+       }
+       .prof{
+        font-size: 24px;
+        width: 300px;
+        float: right;
+        margin-right: 0px;
+       }
+       .topmenu aside{
+       height: 70px;line-height: 70px;margin-right:-20px;width: 370px; font-size: 18px; float: right;
+       }
+       .text{
+        font-size:16px;
+        margin-right: 40px;
+        line-height: 40px;width: 300px;
+        float: right;
+       }
+      }
