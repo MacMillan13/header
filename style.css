@@ -135,8 +135,8 @@ header.sticky {
       
       @media screen and (max-width: 480px) {
           html{width: 480px; height: 1500px;}
-  .kart {width: 480px;}
-  .head {width: 480px;}
+  .kart {width: 1000px;}
+  .head {width: 1000px;}
   #rezume{width: 400px;}
 }
 
