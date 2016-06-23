@@ -104,6 +104,8 @@ header.sticky {
       float: center;
       width: 83%;
       height: 50%;
+      max-width: 1120px;
+      max-height: 760px;
       background: white;
       margin-left: 110px;
       border: 1px solid black;
