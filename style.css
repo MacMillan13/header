@@ -134,3 +134,31 @@ header.sticky {
   background: linear-gradient(90deg,#c16a8a 100px,#a367ba 100px,#a367ba 200px,#2987bf 200px,#2987bf 300px,
     #76a7ac 300px,#76a7ac 400px,#93ae65 400px,#93ae65 500px,#dbb16f 500px);
       background-color: #f2f2f2;background-size: 600px 10px}
+            @media screen and (min-width:200px) and (max-width:768px){
+        .head{
+          width: 108%;
+        }
+       .anons{
+        margin-left: 20px;
+       }
+       .anons header header.sticky .rezume .topmenu {
+        width: 67%;
+        font-size: 
+       }
+       .anons img{
+      margin-top: -60px;
+       }
+       .prof{
+        font-size: 26px;
+       }
+       .topmenu aside{
+       height: 70px;line-height: 70px;margin-right:-50px;width: 500px; font-size: 26px; float: right;
+       }
+       .text{
+        font-size:22px;
+        margin-right: 40px;
+        line-height: 40px;width: 400px;
+        float: right;
+       }
+      }
+      
