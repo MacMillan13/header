@@ -134,9 +134,9 @@ header.sticky {
       background-color: #f2f2f2;background-size: 600px 10px}
       
       @media screen and (max-width: 480px) {
-          html{width: 600px; height: 1500px;}
-  .kart {width: 600px;}
-  .head {width: 600px;}
+          html{width: 480px; height: 1500px;}
+  .kart {width: 480px;}
+  .head {width: 480px;}
   #rezume{width: 400px;}
 }
 
