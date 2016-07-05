@@ -134,7 +134,7 @@ header.sticky {
   background: linear-gradient(90deg,#c16a8a 100px,#a367ba 100px,#a367ba 200px,#2987bf 200px,#2987bf 300px,
     #76a7ac 300px,#76a7ac 400px,#93ae65 400px,#93ae65 500px,#dbb16f 500px);
       background-color: #f2f2f2;background-size: 600px 10px}
-      @media screen and (min-width:200px) and (max-width:1200px){
+     @media screen and (min-width:200px) and (max-width:1200px){
         .head{
           width: 108%;
         }
@@ -183,7 +183,7 @@ header.sticky {
         margin-right: 0px;
        }
               .topmenu aside{
-       height: 70px;line-height: 50px;margin-right:-30px;width: 300px; font-size: 20px; float: right;
+       height: 70px;line-height: 50px;margin-right:45px;width: 300px; font-size: 20px; float: right;
        }
        .text{
         font-size:16px;
@@ -215,9 +215,11 @@ header.sticky {
        }
        .anons{
         width:40%;
+        height: 115%;
        }
        #me{
-      margin-top:20px;
+      margin-top:-30px;
+      margin-left: 15px;
        }
        .like{
         margin-top: -100px;
@@ -228,7 +230,7 @@ header.sticky {
         font-size: 16px;
        }
        .added{
-        margin-left: 170px;
+        margin-left: 150px;
         margin-top: -75px;
        }
        .comments{
@@ -264,8 +266,10 @@ header.sticky {
     }
       }
 
-    @media screen and (min-width:100px) and (max-width:600px){
-    .me img{
+    @media screen and (min-width:100px) and (max-width:650px){
+    #me img{
+     margin-left: 10px;
+     margin-top: 0px;
     }
     #rezume{
       margin-left: 50px;
@@ -286,11 +290,11 @@ header.sticky {
       margin-top: 25px;
       font-size: 20px;
       margin-right: -80px;
+      margin-left: 100px;
     }
     .anons{
       margin-left:5px;
-      height: 120%;
-
+      height: 100%;
     }
     .added{
       font-size: 12px;
@@ -315,5 +319,137 @@ header.sticky {
        }
      }
      @media screen and (min-width:100px) and (max-width:480px){
-      
-     }
+      .anons{
+      height: 100%;
+      margin-top: px;
+      }
+      #me{
+      margin-left: 5px;
+      margin-top: -20px;
+      }
+      .text{
+        font-size: 12px;
+      }
+      .comments{
+        font-size: 15px;
+        margin-top: 80px;
+      }
+      .like{
+        margin-top: -120px;
+        margin-left: 5px;
+      }
+      .likers{
+        font-size: 15px;
+        margin-left: 40px;
+      }
+      .added{
+        font-size: 10px;
+        margin-top: -75px;
+        margin-left: 50px;
+      }
+      .topmenu aside{
+      height: 50px;line-height: 50px;margin-right:-85px;width: 300px; font-size: 16px; float: right;
+    }
+    #rezume{
+      margin-left: 45px;
+    }
+        #rezume h4{
+      font-size: 16px;
+    }
+    #rezume p{
+      font-size: 10px;
+    }
+    #rezume h3{
+      font-size: 18px;
+    }
+    .resume{
+      font-size: 20px;
+    }
+    }
+    @media screen and (min-width:100px) and (max-width:360px){
+    .text{
+      font-size: 5px;
+    }
+    .topmenu aside{
+    height: 50px;line-height: 50px;margin-right:-85px;width: 300px; font-size: 16px; float: right;
+    }
+    .
+    .anons{
+      height: 100%;
+    }
+header{
+  margin-top: -60px;
+  font-size: 25px;
+  line-height: 40px;
+}
+header.sticky {
+  font-size: 20px;
+  line-height: 35px;
+  height: 30px;
+}
+body{
+  height: 1150px;
+}
+.head {
+      margin-top: 75px;
+      width:100%;
+      height: 200px;
+      box-shadow: 6px 6px 14px -1px #777;
+    }
+    .prof{
+      font-size: 15px;
+      margin-right: -150px;
+    }
+    .likers{
+      font-size: 10px;
+      margin-top: 0px;
+      line-height: 20px;
+    }
+    .comments{
+    font-size: 11px;
+    margin-top: 40px;
+    margin-left: 12px;
+    }
+    .added{
+     font-size: 7px;
+     margin-top: -63px;
+     margin-left: 50px;
+    }
+    .anons{
+      height: 120%;
+    }
+    .like{
+      margin-top: -90px;
+    }
+    #rezume{
+      margin-top: 90px;
+    }
+#me{
+  margin-top: -60px;
+}
+.topmenu aside{
+  height: 50px;line-height: 50px;margin-right:-155px;width: 300px; font-size: 12px; float: right;
+}
+#rezume{
+  height: 120%;
+}
+    #rezume h4{
+      font-size: 14px;
+    }
+    #rezume p{
+      font-size: 10px;
+      line-height: 26px;
+    }
+    #rezume h3{
+      font-size: 16px;
+    }
+    .resume{
+      font-size: 18px;
+    }
+    .myf{
+      font-size: 12px;
+    }
+    .foll{
+      font-size: 8px;
+    }
+    }
