@@ -47,6 +47,10 @@ header.sticky {
       margin-left: 120px;
       margin-top: 110px;
     }
+        .ask{
+      margin-top: -15px;
+      line-height: 30px;
+    }
     .text {
       font-size: 34px;
       color: white;
