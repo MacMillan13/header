@@ -43,6 +43,10 @@ header.sticky {
       background: white url(https://cloud.githubusercontent.com/assets/18086617/16282844/cecd7e68-38ca-11e6-9d07-8e2ae7eb3ca1.jpg);
       box-shadow: 6px 6px 14px -1px #777;
     }
+        .ask{
+      margin-top: -15px;
+      line-height: 30px;
+    }
     .under{
       margin-left: 120px;
       margin-top: 110px;
