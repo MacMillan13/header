@@ -72,8 +72,8 @@ header.sticky {
       transition: transform 0.7s;
     }
     .like{
-      margin-left: 160px;
-      margin-top: -100px;
+      margin-left: 40px;
+      margin-top: -84px;
     }
     .like:hover{
     transform:scale(1.01) rotate(0);
@@ -112,20 +112,20 @@ header.sticky {
       text-align: center;
       background: white url(https://cloud.githubusercontent.com/assets/18086617/16282763/6b5d509c-38ca-11e6-9548-51b6b8d4237b.jpg);
     }
-    h4{
+    #rezume h4{
       font-size: 24px;
     }
-    p{
+    #rezume p{
       font-size: 18px;
     }
-    h3{
+    #rezume h3{
       font-size: 30px;
     }
     .prof{
       width: 300px;
-      float: left;
+      float: right;
       margin-top: 50px;
-      margin-left: 800px;
+      margin-right: 200px;
       color: #2D6875;
     }
     .footer{text-align: center;margin-top:100px;}
@@ -134,7 +134,8 @@ header.sticky {
   background: linear-gradient(90deg,#c16a8a 100px,#a367ba 100px,#a367ba 200px,#2987bf 200px,#2987bf 300px,
     #76a7ac 300px,#76a7ac 400px,#93ae65 400px,#93ae65 500px,#dbb16f 500px);
       background-color: #f2f2f2;background-size: 600px 10px}
-     @media screen and (min-width:200px) and (max-width:1200px){
+
+      @media screen and (min-width:200px) and (max-width:1200px){
         .head{
           width: 108%;
         }
