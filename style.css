@@ -386,14 +386,17 @@ header{
   margin-top: -60px;
   font-size: 25px;
   line-height: 40px;
+  width: 90%;
 }
 header.sticky {
   font-size: 20px;
   line-height: 35px;
   height: 30px;
+  width: 90%;
 }
 body{
   height: 1150px;
+  width: 350px;
 }
 .head {
       margin-top: 75px;
@@ -456,5 +459,8 @@ body{
     }
     .foll{
       font-size: 8px;
+    }
+    .footer{
+      width: 70%;
     }
     }
