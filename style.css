@@ -271,7 +271,7 @@ header.sticky {
     }
       }
 
-    @media screen and (min-width:100px) and (max-width:650px){
+    @media screen and (min-width:100px) and (max-width:700px){
     #me img{
      margin-left: 10px;
      margin-top: 0px;
@@ -323,7 +323,7 @@ header.sticky {
         float: right;
        }
      }
-     @media screen and (min-width:100px) and (max-width:480px){
+     @media screen and (min-width:100px) and (max-width:530px){
       .anons{
       height: 100%;
       margin-top: px;
@@ -371,7 +371,7 @@ header.sticky {
       font-size: 20px;
     }
     }
-    @media screen and (min-width:100px) and (max-width:360px){
+    @media screen and (min-width:100px) and (max-width:390px){
     .text{
       font-size: 5px;
     }
