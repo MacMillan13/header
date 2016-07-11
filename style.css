@@ -386,13 +386,13 @@ header{
   margin-top: -60px;
   font-size: 25px;
   line-height: 40px;
-  width: 90%;
+  width: 100%;
 }
 header.sticky {
   font-size: 20px;
   line-height: 35px;
   height: 30px;
-  width: 90%;
+  width: 100%;
 }
 body{
   height: 1150px;
@@ -427,7 +427,7 @@ body{
       height: 120%;
     }
     .like{
-      margin-top: -90px;
+      margin-top: -75px;
     }
     #rezume{
       margin-top: 90px;
@@ -461,6 +461,12 @@ body{
       font-size: 8px;
     }
     .footer{
-      width: 70%;
+      width: 84%;
+    }
+    .ask{
+      font-size: 7px;
+    }
+    .head{
+      width: 110%;
     }
     }
